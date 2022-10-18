@@ -45,6 +45,19 @@ p.title-para {
   color: black;
   border: 1px solid white
 }
+p.title-para2 {
+  font-size: 16px;
+  padding: 20px 20px;
+  color: black;
+  background-color: white;
+  border: 1px solid white
+}
+p.email-us {
+  font-size: 16px;
+  padding: 20px 20px;
+  color: black;
+  text-align: center;
+}
 .work {
   color: black;
   font-size: 30px;
@@ -68,7 +81,26 @@ p.title-para {
   background-color: black;
   color: white;
 }
-hr {
+section.about-logo,
+section.past {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+img.my-logo {
+  width: 100%;
+  height: 0%;
+  margin: 20px 0;
+}
+hr.full {
+  width: 100%;
+  height: 1px;
+  color: black;
+  margin: 40px;
+}
+hr.small-hr {
   color:#ec5242;
   width: 7%;
   border: 1px solid #ec5242;
@@ -183,4 +215,46 @@ a.enroll {
 }
 h3.program, h3 {
   margin-top: 20px;
+}
+img.event1,
+img.event2 {
+  width: 100%;
+  height: 0%;
+  margin: 20px 0;
+}
+section.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+  background-color: grey;
+}
+img.partner1,
+img.partner2,
+img.partner3,
+img.partner4,
+img.partner5 {
+  width: 15%;
+}
+div.partners-logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 0;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+footer.footer-logo {
+  width:100%;
+}
+p.footer-para {
+  width: 100%;
+  padding: 20px 0;
+  margin: 10px 10px;
 }
