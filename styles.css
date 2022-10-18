@@ -18,7 +18,7 @@ nav {
   height: 100%;
   background: #d3d3d3;
 }
-ul {
+ul.menu {
   display: flex;
   flex-direction: row;
 }
@@ -113,7 +113,7 @@ hr.small-hr {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  height: 25vh;
   width: 90%;
   margin: 20px 20px;
   padding: 10px 5px;
@@ -147,7 +147,7 @@ hr.small-hr {
   align-self: center;
   justify-self: center;
   width: 75%;
-  height: 60px;
+  height: 11vh;
   text-align: center;
   background-color: #ec5242;
   padding: 20px 30px;
@@ -195,24 +195,6 @@ a.enroll {
 }
 .speaker2 {
   margin-bottom: 60px;
-}
-.more {
-  display: flex;
-  flex-direction: row;
-  padding: 5px 0;
-  margin: 5% 5%;
-  width: 90%;
-  height: 50px;
-  align-self: center;
-}
-.down-img {
-  position: relative;
-  left: 10px;
-  top: 5px;
-}
-.more-area {
-  position: relative;
-  left: 280%;
 }
 h3.program, h3 {
   margin-top: 20px;
@@ -275,14 +257,6 @@ a.social {
   padding-right: 60px;
   padding-bottom: 5px;
 }
-
-@media only screen and (max-width: 768px) {
-  a.logo,
-  ul,
-  .navMenu.closeIcon {
-    display: none;
-  }
-}
 @media only screen and (min-width: 768px) {
   nav {
     background-color: white;
@@ -333,4 +307,24 @@ h3 {
   border: 1px solid #d3d3d3;
   background: #d3d3d3;
 }
+.speaker-info {
+  height: 30vh;
+}
+}
+@media only screen and (max-width: 768px) {
+  img.closeIcon,
+  a.logo,
+  ul.menu,
+  div.social-links {
+    display: none;
+  }
+  .join-btn {
+    height: 11vh;
+  }
+  .speaker-info {
+    height: 30vh;
+  }
+  .hl-container {
+    height: 25vh;
+  }
 }
