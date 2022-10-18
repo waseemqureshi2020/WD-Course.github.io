@@ -317,6 +317,21 @@ h3 {
 .speaker-info {
   height: 30vh;
 }
+button.more-btn {
+  display: none;
+}
+h3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.fs-hr {
+  color: #ec5242;
+  width: 4%;
+  border: 1px solid #ec5242;
+  margin: 20px 48%;
+}
 }
 @media only screen and (max-width: 768px) {
   img.closeIcon,
