@@ -159,12 +159,22 @@ hr.small-hr {
 a.enroll {
   color: white;
 }
-.speakers, .speakers2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  .speakers,
+  .speakers2,
+  .speakers3,
+  .speakers4,
+  .speakers5,
+  .speakers6, {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.speaker1, .speaker2 {
+  .speaker1,
+  .speaker2,
+  .speaker3,
+  .speaker4,
+  .speaker5,
+  .speaker6 {
   display: flex;
   flex-direction: row;
 }
@@ -192,9 +202,6 @@ a.enroll {
 .speaker-work {
   color: #ec5242;
   font-size: 18px;
-}
-.speaker2 {
-  margin-bottom: 60px;
 }
 h3.program, h3 {
   margin-top: 20px;
@@ -300,12 +307,12 @@ h3 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100px;
   width: 95%;
   margin: 20px 20px;
   padding: 10px 5px;
   border: 1px solid #d3d3d3;
   background: #d3d3d3;
+  overflow: hidden;
 }
 .speaker-info {
   height: 30vh;
@@ -315,16 +322,50 @@ h3 {
   img.closeIcon,
   a.logo,
   ul.menu,
-  div.social-links {
+  div.social-links,
+  section.speakers2,
+  section.speakers4,
+  section.speakers5,
+  section.speakers6 {
     display: none;
   }
-  .join-btn {
-    height: 11vh;
-  }
+  .join-btn,
   .speaker-info {
-    height: 30vh;
+    overflow: hidden;
   }
   .hl-container {
-    height: 25vh;
+    overflow: hidden;
   }
+  .fs-hr {
+    color: #ec5242;
+    width: 7%;
+    border: 1px solid #ec5242;
+    margin: 20px 50%;
 }
+  h3 {
+    display: flex;
+    justify-content: center;
+}
+button.more-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 40px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+section.more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 90%;
+  margin: 20px;
+}
+  .down-img {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  }
