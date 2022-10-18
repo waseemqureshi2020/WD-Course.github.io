@@ -108,6 +108,16 @@ hr.small-hr {
   margin: 10px;
   margin-bottom: 20px;
 }
+.partners-hr {
+  color:#ec5242;
+  width: 4%;
+  border: 1px solid #ec5242;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+  section.partners {
+    background-color: #272a31;
+  }
 .HL-container {
   display: flex;
   flex-direction: row;
@@ -164,7 +174,7 @@ a.enroll {
   .speakers3,
   .speakers4,
   .speakers5,
-  .speakers6, {
+  .speakers6 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -179,11 +189,15 @@ a.enroll {
   flex-direction: row;
 }
 .speaker-image {
-  padding: 20px 0;
-  padding-left: 30px;
-  padding-right: 10px;
-  display: flex;
-  flex-direction: column;
+    padding: 20px 0;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    background-image: url("./Images/chess.png");
+    background-repeat: no-repeat;
 }
 .speaker-name {
   font-size: 24px;
@@ -218,8 +232,10 @@ section.partners {
   align-items: center;
   justify-content: center;
   padding: 20px 20px;
-  background-color: gray
 }
+  h2 {
+    color: grey;
+  }
 img.partner1,
 img.partner2,
 img.partner3,
@@ -249,20 +265,22 @@ p.footer-para {
   margin: 10px 10px;
 }
 div.social-links {
-  width: 100%;
-  height:30px;
   background-color: gray;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 60%;
-  padding-right: 5%;
+  justify-content: end;
 }
 a.social {
   color: white;
   padding-right: 60px;
   padding-bottom: 5px;
+}
+.partners-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
 }
 @media only screen and (min-width: 768px) {
   nav {
@@ -315,10 +333,11 @@ h3 {
   overflow: hidden;
 }
 .speaker-info {
-  height: 30vh;
+    overflow: hidden;
 }
 button.more-btn {
-  display: none;
+  visibility : hidden;
+  margin-bottom: 40px;
 }
 h3 {
   display: flex;
@@ -332,6 +351,24 @@ h3 {
   border: 1px solid #ec5242;
   margin: 20px 48%;
 }
+  .partners-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+  }
+  .partners-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+  }
 }
 @media only screen and (max-width: 768px) {
   img.closeIcon,
