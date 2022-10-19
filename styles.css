@@ -81,7 +81,7 @@ p.title-para2 {
 }
 p.email-us {
   font-size: 16px;
-  padding: 20px 20px;
+  padding: 2%;
   color: black;
   text-align: center;
 }
@@ -279,6 +279,11 @@ p.copyright {
   color: black;
   padding: 20px 0;
 }
+p.copyright-about {
+  font-size: 24px;
+  color: white;
+  padding: 20px 0;
+}
 div.social-links {
   background-color: gray;
   display: flex;
@@ -296,6 +301,64 @@ a.social {
   align-items: center;
   gap: 5px;
 }
+  section.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    background-color: white;
+  }
+  section.about-section {
+    background-image: url("./Images/main-bg.png");
+    background-size: contain;
+    padding: 5%;
+    height: 700px;
+  }
+  section.past-graduates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+  p.about-us-para {
+    width: 65%;
+    margin: auto;
+    margin-top: 5%;
+    line-height: 1.5;
+    background-color: white;
+    padding: 5%;
+}
+  h1.about-us-title {
+    font-size: 2.5rem;
+    color: #ec5242;
+  }
+  img.my-aboutus-logo {
+    width: 30%;
+    margin: 25px auto;
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+  }
+  div.graduates-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: 30px auto;
+    margin-bottom: 15px;
+    object-fit: contain;
+  }
+  img.graduates-image {
+    width: 30%;
+    height: 0%;
+    margin: 20px 0;
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+  }
+  footer.about-footer {
+    background-color: #231F20;
+  }
 @media only screen and (min-width: 768px) {
   nav {
     background-color: white;
