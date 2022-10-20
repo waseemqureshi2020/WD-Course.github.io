@@ -6,6 +6,8 @@
   list-style: none;
   text-decoration: none;
   overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
 }
   main {
     background-color: white;
@@ -55,6 +57,10 @@ nav li a {
 li.enroll {
   border: 1px solid #ec5242;
   border-radius: 10%;
+  transition: transform 2s;
+}
+li.enroll:hover {
+  transform: rotate(360deg);
 }
 .hamburger {
   padding: 28px 20px;
@@ -376,6 +382,7 @@ a.social {
 @media only screen and (min-width: 768px) {
   nav {
     background-color: white;
+    overflow: hidden;
   }
   .nav-menu {
     display: none;
