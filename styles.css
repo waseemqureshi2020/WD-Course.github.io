@@ -9,9 +9,10 @@
 }
   main {
     background-color: white;
-    background-image: url("./Images/background.jpg");
-    background-position: center;
+    background-image: url("./Images/background-opacity.png");
+    background-position: bottom;
     background-size: cover;
+    background-repeat: no-repeat;
   }
 body {
   background-color: rgba(211, 211, 211, 0.5);
@@ -69,7 +70,7 @@ h1.title {
   background-color: linear-gradient(10deg, #e21143, #ffb03a);
 }
 p.title-para {
-  font-size: 16px;
+  font-size: 20px;
   padding: 20px 20px;
   color: black;
   border: 3px solid white
@@ -313,9 +314,10 @@ a.social {
     background-color: white;
   }
   section.about-section {
-    background-image: url("./Images/main-bg.png");
-    background-size: contain;
+    background-image: url("./Images/background-opacity.png");
+    background-size: cover;
     padding: 5%;
+    background-repeat: no-repeat;
   }
   section.past-graduates {
     display: flex;
@@ -367,6 +369,9 @@ a.social {
   .about-mylogo {
     margin: 20px;
     text-align: center;
+  }
+  a.my-email {
+    color: #ec5242;
   }
 @media only screen and (min-width: 768px) {
   nav {
