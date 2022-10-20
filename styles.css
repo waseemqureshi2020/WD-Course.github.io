@@ -9,8 +9,9 @@
 }
   main {
     background-color: white;
-    background-image: url("./Images/main-bg.png");
-    background-position: bottom;
+    background-image: url("./Images/background.jpg");
+    background-position: center;
+    background-size: cover;
   }
 body {
   background-color: rgba(211, 211, 211, 0.5);
@@ -65,6 +66,7 @@ h1.title {
   font-size: 40px;
   padding: 20px 0;
   color: #ec5242;
+  background-color: linear-gradient(10deg, #e21143, #ffb03a);
 }
 p.title-para {
   font-size: 16px;
@@ -400,7 +402,7 @@ a.social {
     padding-left: 19%;
 }
 p.title-para {
-  font-size: 16px;
+  font-size: 20px;
   color: black;
   border: 4px solid white;
   margin: 0 19%;
