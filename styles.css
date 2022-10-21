@@ -36,15 +36,7 @@ nav {
   height: 100%;
   background: #d3d3d3;
 }
-ul.menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-    overflow: visible;
-    justify-content: space-around;
-}
+
 nav li {
   display: flex;
   flex-direction: row;
@@ -380,6 +372,15 @@ a.social {
     color: #ec5242;
   }
 @media only screen and (min-width: 768px) {
+  ul.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    justify-content: space-between;
+}
   nav {
     background-color: white;
     overflow: hidden;
@@ -499,8 +500,6 @@ h3 {
 }
 @media only screen and (max-width: 768px) {
   img.closeIcon,
-  a.logo,
-  ul.menu,
   div.social-links,
   section.speakers2,
   section.speakers4,
@@ -522,7 +521,8 @@ h3 {
     display: flex;
     justify-content: center;
 }
-button.more-btn {
+
+.more-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -530,8 +530,9 @@ button.more-btn {
   height: 40px;
   padding-bottom: 20px;
   overflow: hidden;
+  margin: 20px;
 }
-section.more {
+section .more {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -591,5 +592,42 @@ p.email-us {
     margin: 10px 0;
     border: 1px solid #d3d3d3;
     padding: 5px;
+  }
+
+  #hamburger {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    z-index: 100;
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+  }
+
+  .menu-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #d3d3d3;
+    z-index: 99;
+    transform: translateY(-100%);
+    transition: 0.2s;
+  }
+
+  .menu-list  ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  img.top-logo {
+    width: 60px;
+    visibility: hidden;
   }
 }

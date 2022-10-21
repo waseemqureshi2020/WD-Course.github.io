@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
+  <script src="https://kit.fontawesome.com/0c3776d5b4.js" crossorigin="anonymous"></script>
   <title>Web Development Course</title>
 </head>
 <body>
@@ -18,18 +19,19 @@
    </div>
     <nav>
       <button class="nav-menu">
-      <a href="#"><img class="hamburger" src="./Images/more.png"</a>
-      <a href="#"><img class="closeIcon" src="./Images/close.png"</a>
+      <i class="fa-solid fa-bars" id="hamburger"></i>
     </button>
       <a class="logo" href="./index.html"><img class="top-logo" src="./Images/wd.png"></a>
-      <ul class="menu">
-        <li><a href="./index.html">Home</a> </li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="#Program">Program</a></li>
-        <li><a href="#Join">Join</a></li>
-        <li><a href="#Sponsor">Sponsor</a></li>
-        <li class="enroll"><a href="#GetStarted"><strong>Enroll Now</strong></a></li>
-      </ul>
+      <div class="menu-list" id="menu-list">
+        <ul class="menu">
+          <li><a id="home" href="./index.html">Home</a> </li>
+          <li><a id="about" href="./about.html">About</a></li>
+          <li><a id="program" href="#Program">Program</a></li>
+          <li><a id="join" href="#Join">Join</a></li>
+          <li><a id="sponsor" href="#Sponsor">Sponsor</a></li>
+          <li class="enroll"><a id="enroll" href="#GetStarted"><strong>Enroll Now</strong></a></li>
+        </ul>
+      </div>
     </nav>
   </header>
 <main>
@@ -171,6 +173,7 @@
       By Waseem Qureshi</p>
   </div>
 </footer>
+  <script src="./index.js"></script>
   <script src="https://kit.fontawesome.com/f12930d0d2.js" crossorigin="anonymous"></script>
 </body>
 </html>
