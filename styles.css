@@ -327,7 +327,6 @@ a.social {
 section.about-section {
   background-image: url("./Images/background-opacity.png");
   background-size: cover;
-  padding: 5%;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -436,10 +435,10 @@ a.my-email {
 
   .work {
     color: black;
-	  font-size: 30px;
-	  padding: 20px;
-	  margin: 20px 0;
-	  height: 800px;
+    font-size: 30px;
+    padding: 20px;
+    margin: 20px 0;
+    height: 800px;
     overflow: hidden;
   }
 
@@ -478,7 +477,7 @@ a.my-email {
   }
 
   button.more-btn {
-    visibility : hidden;
+    visibility: hidden;
     margin-bottom: 40px;
   }
 
@@ -579,7 +578,7 @@ a.my-email {
     padding: 2% 2% 2% 2%;
   }
 
-  h3.card2 div  {
+  h3.card2 div {
     font-size: 18px;
   }
 
@@ -723,7 +722,7 @@ a.my-email {
     transition: 0.2s;
   }
 
-  .menu-list  ul{
+  .menu-list ul{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -745,6 +744,7 @@ a.my-email {
   ul.menu li a:hover {
     color: #ec5242;
   }
+  
   a.enroll2 {
     color: white;
   }
