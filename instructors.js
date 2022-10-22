@@ -37,7 +37,6 @@ Teachers.forEach((cards) => {
   const div = document.createElement('div');
   div.innerHTML += `
   <div class="card2">
-  <div id="cards2">
   <img src="${cards.teacherImage}">
   <div>
       <h3>${cards.teacherName}</h3>

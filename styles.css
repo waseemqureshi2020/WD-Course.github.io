@@ -491,8 +491,7 @@ a.my-email {
   h3 {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    padding: 0 10px;
   }
 
   .fs-hr {
@@ -562,8 +561,12 @@ a.my-email {
   a.enroll {
     color: white;
   }
-  .end-logo2 {
-    display: none;
+  .end-logo2,
+  .end-logo3 {
+    width: 200px;
+  }
+  .enroll-new {
+    color: white;
   }
 }
 
@@ -619,7 +622,7 @@ a.my-email {
 
   h3 {
     display: flex;
-    justify-content: center;
+    padding: 0 10px;
   }
 
   .more-btn {
@@ -757,7 +760,7 @@ a.my-email {
     color: #ec5242;
   }
 
-  a.enroll2 {
+  a.enroll-new {
     color: white;
   }
 
