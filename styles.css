@@ -63,6 +63,7 @@ h3.card2 div {
 
 img.top-logo {
   width: 100px;
+  height: 75px;
 }
 
 img.end-logo {
@@ -85,7 +86,7 @@ nav {
 nav li {
   display: flex;
   flex-direction: row;
-  padding: 28px 20px;
+  padding: 15px 20px;
   margin: 10px 10px;
 }
 
@@ -368,11 +369,12 @@ img.my-aboutus-logo {
 div.graduates-images {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   width: 70%;
   margin: 30px auto;
   margin-bottom: 15px;
   object-fit: contain;
+  background: rgba(182, 175, 175, 0), rgba(249, 52, 52, 0.5) 0),
 }
 
 img.graduates-image {
@@ -381,6 +383,8 @@ img.graduates-image {
   margin: 20px 0;
   border: 1px solid #d3d3d3;
   padding: 10px;
+  opacity: 0.5;
+  filter: hue-rotate(180deg);
 }
 
 footer.about-footer {
@@ -406,7 +410,7 @@ a.my-email {
     flex-direction: row;
     align-items: center;
     width: 100%;
-    height: 100px;
+    height: 75px;
     overflow: hidden;
     justify-content: space-between;
   }
@@ -414,6 +418,9 @@ a.my-email {
   nav {
     background-color: white;
     overflow: hidden;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .nav-menu {
@@ -545,7 +552,6 @@ a.my-email {
 
   li.enroll {
     border: 1px solid #ec5242;
-    border-radius: 10%;
     transition: transform 2s;
   }
 
@@ -555,6 +561,9 @@ a.my-email {
 
   a.enroll {
     color: white;
+  }
+  .end-logo2 {
+    display: none;
   }
 }
 
@@ -592,7 +601,8 @@ a.my-email {
   }
 
   img.closeIcon,
-  div.social-links {
+  div.social-links,
+  img.end-logo {
     display: none;
   }
 
@@ -696,6 +706,8 @@ a.my-email {
     margin: 10px 0;
     border: 1px solid #d3d3d3;
     padding: 5px;
+    opacity: 0.5;
+    filter: hue-rotate(180deg);
   }
 
   #hamburger {
@@ -747,5 +759,19 @@ a.my-email {
 
   a.enroll2 {
     color: white;
+  }
+
+  footer.about-footer {
+    background-color: white;
+  }
+
+  img.end-logo2 {
+    width: 200px;
+  }
+
+  p.copyright-about {
+    font-size: 24px;
+    color: black;
+    padding: 20px 0;
   }
 }
