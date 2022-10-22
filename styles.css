@@ -77,14 +77,6 @@
   nav li a {
     color: black;
   }
-  li.enroll {
-    border: 1px solid #ec5242;
-    border-radius: 10%;
-    transition: transform 2s;
-  }
-  li.enroll:hover {
-    transform: rotate(360deg);
-  }
   .hamburger {
     padding: 28px 20px;
   }
@@ -99,7 +91,7 @@
     background-color: linear-gradient(10deg, #e21143, #ffb03a);
   }
   p.title-para {
-    font-size: 20px;
+    font-size: 16px;
     padding: 20px 20px;
     color: black;
     border: 3px solid white
@@ -204,9 +196,6 @@
     cursor: pointer;
     margin: 20px auto;
     margin-bottom: 35px;
-  }
-  a.enroll {
-    color: white;
   }
   .speakers {
     display: flex;
@@ -481,6 +470,17 @@
     min-width: 30px;
     max-width: 70px;
   }
+  li.enroll {
+    border: 1px solid #ec5242;
+    border-radius: 10%;
+    transition: transform 2s;
+  }
+  li.enroll:hover {
+    transform: rotate(360deg);
+  }
+  a.enroll {
+    color: white;
+  }
 }
   @media only screen and (max-width: 768px) {
   .instructors-cards {
@@ -537,6 +537,7 @@
     padding-bottom: 20px;
     overflow: hidden;
     margin: 20px;
+    cursor: pointer;
   }
   section .more {
     display: flex;
@@ -565,6 +566,7 @@
   .card .title3 {
     width: 65%;
     min-width: 150px;
+    padding: 0 10px;
   }
   .card .title-2 {
     width: 20%;
@@ -638,5 +640,8 @@
   a.my-more-btn {
     color: black;
     font-size: 16px;
+  }
+  ul.menu li a:hover {
+    color: #ec5242;
   }
 }

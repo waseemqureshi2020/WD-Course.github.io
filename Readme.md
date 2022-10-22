@@ -7,6 +7,9 @@ Project Description: "A website for beginers to learn HTML, CSS, Javascript, Rea
 Live Demo
 https://waseemqureshi2020.github.io/portfolio.github.io/
 
+Video Explainer:
+https://www.loom.com/share/b7f95d971daa4c88a8ba1dba7525d46d
+
 Built With:
 
 HTML
