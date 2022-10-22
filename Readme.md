@@ -14,10 +14,10 @@ https://www.loom.com/share/b7f95d971daa4c88a8ba1dba7525d46d
 
 ## Built With:
 
-HTML
-CSS
-JAVA SCRIPT
-Linter
+** HTML **
+** CSS **
+** JAVA SCRIPT **
+** Linter **
 
 ### Getting Started:
 
